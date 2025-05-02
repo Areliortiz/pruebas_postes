@@ -16,7 +16,7 @@
             padding: 6px 8px;
             font: 14px/16px Arial, Helvetica, sans-serif;
             background-color:#e5e4e4 !important;
-            color: #002458 !important;
+            color: #262626 !important;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
             border-radius: 5px;
         }
@@ -62,7 +62,7 @@
         }
         }
         .fa, .leaflet-container, a {
-            color: #002458 !important;
+            color: #262626 !important;
         }
         .leaflet-control-zoom-in, .leaflet-control-zoom-out,
         .leaflet-control-locate a,
@@ -71,14 +71,14 @@
          .leaflet-control-measure {
             background-color: #e5e4e4 !important;
             border-radius: 0px !important;
-            color: #002458 !important;
+            color: #262626 !important;
         }
         .abstract {
             font: bold 18px 'Lucida Console', Monaco, monospace;
             text-indent: 1px;
             background-color: #e5e4e4 !important;
             width: 30px !important;
-            color: #002458 !important;
+            color: #262626 !important;
             height: 30px !important;
             text-align: center !important;
             line-height: 30px !important;
@@ -87,7 +87,7 @@
             padding: 6px 8px;
             font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
             background-color:#e5e4e4 !important;
-            color: #002458 !important;
+            color: #262626 !important;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
             border-radius: 5px;
             max-width: 40%;
@@ -147,7 +147,7 @@
             height: 30px !important;
             border-radius: 0px !important;
             background-color: #e5e4e4 !important;
-            color: #002458 !important;
+            color: #262626 !important;
             font-size: 13px;
             line-height: 30px;
             text-align: center;
@@ -159,7 +159,7 @@
 			flex-direction: column;
 			align-items: flex-end;
             background-color: #e5e4e4 !important;
-            color: #002458 !important;
+            color: #262626 !important;
 
 		}
         .leaflet-control-layers-expanded {
@@ -174,7 +174,7 @@
         .leaflet-control-layers-expanded .leaflet-control-layers-toggle::after {
             content: '»';
             font-size: x-large;
-            color: #002458 !important;
+            color: #262626 !important;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -188,3 +188,7 @@
         .leaflet-popup-pane {
             z-index: 700;
         }
+        .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+            display: none;
+        }
+        
